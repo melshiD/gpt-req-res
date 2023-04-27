@@ -16,7 +16,7 @@ function ModelSelection() {
     <div>
         <Select 
             options={models?.modelOptions}
-            className="mt-2 bg-white"
+            className="mt-2"
             isSearchable
             isLoading={isLoading}
             menuPosition="fixed"
