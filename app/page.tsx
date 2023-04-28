@@ -5,12 +5,12 @@ import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 function HomePage() {
     return (
-        <div className="flex flex-col items-center justify-center text-white h-screen px-2">
-            <h1 className="text-5xl font-bold mb-20">ChatGPT Assignment Portal</h1>
+        <div className="flex flex-col items-center justify-center text-white h-auto mb-7 md:h-screen md:overflow-hidden">
+            <h1 className="text-5xl font-bold text-center mb-20 p-2 bg-[#343541] leading-tight">ChatGPT Assignment Portal</h1>
 
-            <div className="flex space-x-2 text-center">
+            <div className="flex flex-col sm:flex-row space-x-2 text-center">
                 <div>
-                    <div>
+                    <div className="sm: px-3">
                         <div className="flex flex-col items-center justify-center mb-5">
                             <SunIcon className="h-8 w-8" />
                             <h2 className="text-3xl">Examples</h2>
@@ -23,7 +23,7 @@ function HomePage() {
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className="sm: px-3">
                         <div className="flex flex-col items-center justify-center mb-5">
                             <BoltIcon className="h-8 w-8" />
                             <h2 className="text-3xl">Capabilities</h2>
@@ -36,7 +36,7 @@ function HomePage() {
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className="sm: px-3">
                         <div className="flex flex-col items-center justify-center mb-5">
                             <ExclamationTriangleIcon className="h-8 w-8" />
                             <h2 className="text-3xl">Limitations</h2>
