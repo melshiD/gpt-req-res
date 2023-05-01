@@ -32,8 +32,6 @@ function ChatRow({id}: Props) {
     router.replace('/');
   }
 
-  console.log(messages);
-
   return (
     <Link href={`/chat/${id}`} className={`chatRow justify-center ${active && 'bg-gray-700/50'} p-y-1`}>
         <ChatBubbleLeftIcon className="h-5 w-5 text-white"/>

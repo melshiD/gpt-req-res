@@ -2,5 +2,3 @@ DNS setup:
 
 I'm overwriting my Hostinger "! A @ 84.32.84.32 14400" with the 
 values from Vercel.  If it breaks, switch it back
-
-quick change to test Vercel automatic deployment update

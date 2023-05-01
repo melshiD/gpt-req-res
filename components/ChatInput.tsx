@@ -24,6 +24,10 @@ function ChatInput({ chatId }: Props) {
     const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // if(!prompt) return;
+
+        //HERE is where we look for the context checkbox and generate full prompt
+        //We will not track how much context was used for each prompt, although this will
+        //be stored in the Firebase
         const input = prompt.trim();
         setPrompt("");
 
